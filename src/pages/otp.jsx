@@ -51,7 +51,7 @@ const Otp = () => {
           </p>
         </div>
 
-        <form >
+        <div >
           <div className="mb-6">
             <div className="relative">
               <div className="flex justify-center gap-4 mt-4">
@@ -95,7 +95,7 @@ const Otp = () => {
           >
             Verify OTP
           </button>
-        </form>
+        </div>
 
         <div className="mt-6 text-center">
           <p className="text-gray-600 text-sm">
