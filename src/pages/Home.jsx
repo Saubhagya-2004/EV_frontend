@@ -9,7 +9,7 @@ import citron from '../assets/citron.jpg';
 import mahindra from '../assets/mahindra.jpg';
 import MGCar from '../assets/MG.jpg';
 import suzuki from '../assets/suzuki.jpg';
-import Tata from '../assets/tata.jpg';
+import Tata from '../assets/Tata.jpg';
 const Home = () => {
   const carImages = {
   Citron: citron,
