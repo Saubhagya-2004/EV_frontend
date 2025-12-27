@@ -1,0 +1,63 @@
+[
+  {
+    "id": 6,
+    "name": "GreenCharge Hub",
+    "status": "Available",
+    "location": "MG Road, Bengaluru"
+  },
+  {
+    "id": 7,
+    "name": "VoltWay Station",
+    "status": "Busy",
+    "location": "Sector 18, Noida"
+  },
+  {
+    "id": 8,
+    "name": "PowerGrid EV",
+    "status": "Offline",
+    "location": "Salt Lake, Kolkata"
+  },
+  {
+    "id": 9,
+    "name": "ChargeZone Plus",
+    "status": "Available",
+    "location": "Hitech City, Hyderabad"
+  },
+  {
+    "id": 10,
+    "name": "E-Drive Point",
+    "status": "Busy",
+    "location": "Baner, Pune"
+  },
+  {
+    "id": 11,
+    "name": "Spark EV Station",
+    "status": "Available",
+    "location": "Indiranagar, Bengaluru"
+  },
+  {
+    "id": 12,
+    "name": "RapidCharge",
+    "status": "Offline",
+    "location": "Vashi, Navi Mumbai"
+  },
+  {
+    "id": 13,
+    "name": "PlugPoint Central",
+    "status": "Available",
+    "location": "Connaught Place, Delhi"
+  },
+  {
+    "id": 14,
+    "name": "ElectroFast Hub",
+    "status": "Busy",
+    "location": "Banjara Hills, Hyderabad"
+  },
+  {
+    "id": 15,
+    "name": "UrbanCharge Station",
+    "status": "Available",
+    "location": "Anna Nagar, Chennai"
+  }
+]
+
