@@ -51,7 +51,7 @@ const Otp = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        <form >
           <div className="mb-6">
             <div className="relative">
               <div className="flex justify-center gap-4 mt-4">
@@ -89,7 +89,8 @@ const Otp = () => {
           </div>
 
           <button
-            type="submit"
+            type="button"
+             onClick={handleSubmit}
             className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-medium py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           >
             Verify OTP
