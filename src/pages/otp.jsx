@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Route, useNavigate } from "react-router-dom";
 import { getUserByemail } from "../utils/storage";
 import { BiError } from "react-icons/bi";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { CiLock } from "react-icons/ci";
-
+import Home from "./Home";
+import Profile from "./profilesetup";
 const Otp = () => {
   const navigate = useNavigate();
   const [otp, setOtp] = useState("");
@@ -31,10 +32,10 @@ const Otp = () => {
     console.log(user)
 
     if (user) {
-      navigate("/Home");
-    } else {
-      navigate("/Profile");
-    }
+    navigate("/home");
+  } else {
+    navigate("/profile");
+  }
   };
 
   return (
